@@ -60,6 +60,6 @@ void cDeviceManager::Destroy()
 {
 	SAFE_RELEASE(m_pD3D);
 	SAFE_RELEASE(m_pD3DDevice);
-//	ULONG ul = m_pD3DDevice->Release();
+	//ULONG ul = m_pD3DDevice->Release();
 	//assert(ul == 0 && "디바이스를 통해 생성된 객체 중 해제되지 않은 객체가 있습니다.");
 }
