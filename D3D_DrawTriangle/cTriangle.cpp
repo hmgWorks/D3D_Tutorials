@@ -29,10 +29,11 @@ void cTriangle::Setup()
 
 	v.c = D3DCOLOR_XRGB(255, 0, 0);
 	v.p = D3DXVECTOR4(120.0f, 400.0f, 0.5f, 1.0f);
-	m_vecVertex.push_back(v);
-	HRESULT hr;
-
+	m_vecVertex.push_back(v);	
+	
 	int nPrimitiveCount = sizeof(ST_RHWC_VERTEX)*m_vecVertex.size();
+
+	HRESULT hr;
 	hr = g_pD3DDevice->CreateVertexBuffer(
 		nPrimitiveCount, 0, ST_RHWC_VERTEX::FVF, D3DPOOL_MANAGED, &m_pVB, 0);
 	
