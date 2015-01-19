@@ -47,6 +47,7 @@ public: virtual void Set##funName(varType var){\
 
 // 인터페이스들
 #include "cDeviceManager.h"
+#include "cInputManiger.h"
 
 struct ST_RHWC_VERTEX
 {

@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cDeviceManager.h" />
+    <ClInclude Include="cInputManiger.h" />
     <ClInclude Include="cMainGame.h" />
     <ClInclude Include="D3D_TransformingVertices.h" />
     <ClInclude Include="hmgD3D.h" />
@@ -92,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cDeviceManager.cpp" />
+    <ClCompile Include="cInputManiger.cpp" />
     <ClCompile Include="cMainGame.cpp" />
     <ClCompile Include="D3D_TransformingVertices.cpp" />
     <ClCompile Include="stdafx.cpp">
